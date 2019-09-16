@@ -117,7 +117,7 @@
     <div class="row">
       <div class="comuln comuln-2">
         <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3906795429,96993889&fm=26&gp=0.jpg"class="thumbnail">
-        <p>我爱学习我爱学习学习能丰富我的知识，给我带来许多乐趣，而且让我明白许多的道理</p>
+        <p>我爱学习我爱学习学习能丰富我的知识，给我带来许多乐趣，而且让我明白许多的道理11111</p>
       </div>
       <div class="comuln comuln-2">
         <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3906795429,96993889&fm=26&gp=0.jpg"class="thumbnail">
