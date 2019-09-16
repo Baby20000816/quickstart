@@ -72,6 +72,232 @@
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
       }
+      *，
+      ：after,
+      :before{
+        box-sizing: border-box;
+      }
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+      }
+      header,footer{
+        flex: 0 0 50px;
+        background: #3f3f3f;
+        color: #fff;
+      }
+      .main{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex: 1 1 auto;
+      }
+      .left{
+        height: 600px;
+        background: darkcyan;
+        flex: 0 0 100px;
+        order: -1;
+      }
+      .left-pic{
+        height: 100%;
+        width: 100%;
+        flex: 0 0 100px;
+      }
+      .content{
+        background: lightblue;
+        height: 1000px;
+        flex: 1 1 auto;
+      }
+      .rightt{
+        flex: 0 0 220px;
+        height: 800px;
+        background: #55D4EB;
+        display: flex;
+        flex-direction: column;
+      }
+      .item{
+        width: 220px;
+        height: 100px;
+        padding: 5px 5px 5px 5px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #EEE;
+        text-align: center;
+      }
+      .item img{
+        width: 100%;
+        height: 90%;
+      }
+      .item span{
+        font-size: 12px;
+      }
+
+      .container{
+        width: 90%;
+        margin: 0 auto;
+      }
+      .row{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      [class*='col-']{
+        flex: 1;
+        border: .2rem solid #EEE;
+        box-sizing: border-box;
+        background: #B0C4DE;
+        height: 10rem;
+      }
+      [class*='colo-']{
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex:1;
+        background: #B0C4DE;
+        min-height: 100px;
+        border: 1px solid #EEE;
+      }
+      .colo-1{
+        flex: 0 0 8.33%;
+      }
+      .colo-2{
+        flex: flex:0 0 16,66%;
+      }
+      .colo-3{
+        flex: 0 0 25%;
+      }
+      .colo-4{
+        flex: 0 0 33.33%;
+      }
+      .colo-6{
+        flex:0 0 50%;
+      }
+      .colo-12{
+        flex:0 0 100%;
+      }
+      headerr{
+        height: 55px;
+        border-bottom: 1px solid #EEEEE;
+      }
+      headerr img{
+        height: 100%;
+      }
+      .line{
+        width: 80%;
+        border: 1px solid #e6e6e6;
+      }
+      .banner{
+        height: 100px;
+        margin-top: 30px;
+      }
+      .banner img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+      }
+      .author{
+        color:#FFF;
+        font-size: 20px;
+        position: relative;
+        top: -65px;
+        float: right;
+        right: 30px;
+      }
+      .wrap{
+        margin-top: 40px;
+      }
+      .card{
+        height: 10rem;
+        text-align: center;
+        padding: .2rem;
+      }
+      .cards{
+        height: 320px;
+        background: rgb(247,247,247);
+        border: 1px solid #EEE;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 20px;
+      }
+      .avatar{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1px solid #DDD;
+        position: relative;
+        top: -30px;
+      }
+      .cards-body{
+        position: relative;
+        top: -30px;
+      }
+      .btn{
+        width: 100px;
+        height: 40px;
+        background: #3db922;
+        border: none;
+        border-radius: 30px;
+        color: #FFF;
+        font-size: 16px;
+      }
+
+      .card img{
+        width: 100%;
+        height: 100%;
+        border-radius: .5rem;
+      }
+      .title{
+        line-height: 1.5rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        color: #000000;
+      }
+      .description{
+        line-height: 1.5rem;
+        color: #747373;
+      }
+      .card-view{
+        display: flex;
+      }
+      .leftt{
+        flex: 0 0 40%;
+      }
+      .grid{
+        display: grid;
+        grid-template-rows:5rem 5rem ;
+        grid-template-columns: 33% 33% 33%;
+      }
+      .grid img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        margin: .5rem;
+      }
+      @media only screen and (min-width: 320px){
+        .col-xs-12{
+          flex:0 0 100%;
+        }
+      }
+      @media only screen and (min-width: 768px){
+        .col-md-6{
+          flex:0 0 50%;
+        }
+      }
+      @media only screen and (min-width: 992px){
+        .col-lg-4{
+          flex:0 0 33.33%;
+        }
+      }
+      @media only screen and (min-width: 1200px){
+        .col-xl-3{
+          flex:0 0 25%;
+        }
+
     </style>
   </head>
   <body>
